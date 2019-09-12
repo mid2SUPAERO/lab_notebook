@@ -17,10 +17,15 @@ Control is a physics?
 ## Level of fidelity
 Describe the methodology with full references
 Example: in Fluid Dynamics / CFD
+
 LO Empiricial equation /regression
+
 L0+ lifting line
+
 L1 DLM/VLM
+
 L2 RANS 
+
 L2+ LES etc...
 
 ## Mesh 
@@ -31,20 +36,23 @@ Please, Recap also the tuning of the physical solver
 
 ## Mapping
 Describe the methodology with full references
+
 space/time/both
 
 ## MDO
 Describe the methodology with full references
+
 If you are using openMDAO, please use the last version
 Add an image (with source) of your XDSM
 
 ## Surrogate Modeling
-Describe the methodology with full references
-Please describe how you constructed and validated your surrogatez
+Describe the methodology with full references (RBF, GP, ...)
+
+Please describe how you constructed and validated your surrogate
 Precise the Kernel, and hyperparameter tuning
 
 ## Reduced Order Modeling
-Please describe the methodology (SVD, ...)
+Describe the methodology with full references (SVD, ...)
 
 ## Optimization
 Describe the methodology with full references
