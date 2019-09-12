@@ -54,6 +54,9 @@ Precise the Kernel, and hyperparameter tuning
 ## Reduced Order Modeling
 Describe the methodology with full references (SVD, ...)
 
+## Type of variables
+x can be continuous, discrete, categorial ...hybrid
+
 ## Optimization
 Describe the methodology with full references
 
@@ -64,11 +67,14 @@ Sensibility computed using FD, Complex step, Analytic, Semi Analytic
 Clearly define the objective function (mono, multi) and the constraints (equality, inequality)
 
 min f(x)
+
 wrt g(x)<=0
+
     h(x)==0
+    
 and bounds for x
     
-define the optimizer (SLSQP) and associated tolerances and or stopping criteria
+define the optimizer (SLSQP for example) and associated tolerances and or stopping criteria
 
 ## Packages Used
 Upload here your codes and precise here the dependencies
