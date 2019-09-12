@@ -1,63 +1,59 @@
 # lab_notebook
-Here is a one page help to help you to describe your numerical experiments.
+Here is a one page help to help you to describe your numerical experiments (NE).
 
 
+## Full Name and date
+Exemple: Joseph Morlier, tuesday the 12th of September 2019
 
-
-Let's define first the physics embedded in your problem and  level of fidelity of your  experiments:
+## Resume
+In 3 lines, try to resume the big picture of your NE.
 
 ## Physics
-
-Fluid and Structures for example
-basic physical hypothesis, linearity / NL, solveur
+Let's define first the physics embedded in your problem and  level of fidelity of your NE:
+Exemple: Fluid and Structures
+add basic physical hypothesis, linearity / NL, solver
+Control is a physics?
 
 ## Level of fidelity
+Describe the methodology with full references
+Example: in Fluid Dynamics / CFD
 LO Empiricial equation /regression
 L0+ lifting line
 L1 DLM/VLM
 L2 RANS 
 L2+ LES etc...
 
-Examples in Fluid Dynamics / CFD
-
-
 ## Mesh 
-
 Is it really important ?
 
 ## Analysis
-
 Please, Recap also the tuning of the physical solver
 
-
 ## Mapping
-
 Describe the methodology with full references
-
+space/time/both
 
 ## MDO
-
+Describe the methodology with full references
 If you are using openMDAO, please use the last version
-
 Add an image (with source) of your XDSM
 
 ## Surrogate Modeling
-
-Please describe how you constructed and validated your surrogate
+Describe the methodology with full references
+Please describe how you constructed and validated your surrogatez
+Precise the Kernel, and hyperparameter tuning
 
 ## Reduced Order Modeling
-
 Please describe the methodology (SVD, ...)
 
-
 ## Optimization
+Describe the methodology with full references
 
-Constrained or unconstrained
+Constrained or unconstrained ?
 Use derivative or not ?
 Sensibility computed using FD, Complex step, Analytic, Semi Analytic
 
-Clearly define the objective function (mono, multi)
-
+Clearly define the objective function (mono, multi) and the constraints (equality, inequality)
 
 min f(x)
 wrt g(x)<=0
@@ -67,7 +63,6 @@ and bounds for x
 define the optimizer (SLSQP) and associated tolerances and or stopping criteria
 
 ## Packages Used
-
 Upload here your codes and precise here the dependencies
     
     
