@@ -11,7 +11,7 @@ In 3 lines, try to resume the big picture of your NE.
 ## Physics
 Let's define first the physics embedded in your problem and  level of fidelity of your NE:
 Exemple: Fluid and Structures
-add basic physical hypothesis, linearity / NL, solver
+add basic physical hypothesis, linearity / NL, type of solver/tolerances
 Control is a physics?
 
 ## Level of fidelity
