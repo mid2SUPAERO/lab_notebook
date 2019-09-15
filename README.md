@@ -73,6 +73,8 @@ wrt g(x)<=0
     h(x)==0
     
 and bounds for x
+
+Can you write a linear system for constraints?
     
 define the optimizer (SLSQP for example) and associated tolerances and or stopping criteria
 
