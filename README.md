@@ -78,6 +78,13 @@ Can you write a linear system for constraints?
     
 define the optimizer (SLSQP for example) and associated tolerances and or stopping criteria
 
+
+Provide X0, Xn, X*
+
+Optimality / Feasibility Graphs (convergency )
+
+Multistart ?
+
 ## Packages Used
 Upload here your codes and precise here the dependencies
     
