@@ -5,8 +5,10 @@ Here is a one page help to help you to describe your numerical experiments (NE).
 ## Full Name and date
 Exemple: Joseph Morlier, tuesday the 12th of September 2019
 
-## Resume
+## Resume WITH A SCHEMA
 In 3 lines, try to resume the big picture of your NE.
+
+
 
 ## Physics
 Let's define first the physics embedded in your problem and  level of fidelity of your NE:
@@ -28,8 +30,8 @@ L2 RANS
 
 L2+ LES etc...
 
-## Mesh 
-Is it really important ?
+## Mesh with a GRAPH per physics
+check convergency
 
 ## Analysis
 Please, Recap also the tuning of the physical solver
@@ -39,11 +41,10 @@ Describe the methodology with full references
 
 space/time/both
 
-## MDO
+## MDO with the XDSM
 Describe the methodology with full references
 
 If you are using openMDAO, please use the last version
-Add an image (with source) of your XDSM
 
 ## Surrogate Modeling
 Describe the methodology with full references (RBF, GP, ...)
@@ -57,12 +58,12 @@ Describe the methodology with full references (SVD, ...)
 ## Type of variables
 x can be continuous, discrete, categorial ...hybrid
 
-## Optimization
-Describe the methodology with full references
+## Optimization with GRAPHS: Optimality / Feasibility 
+Describe the methodology (Gradient Based, GA, Bayesian Optimization/EGO ...)
 
 Constrained or unconstrained ?
 Use derivative or not ?
-Sensibility computed using FD, Complex step, Analytic, Semi Analytic
+Sensibility computed using ? FD, Complex step, Analytic, Semi Analytic
 
 Clearly define the objective function (mono, multi) and the constraints (equality, inequality)
 
@@ -79,9 +80,9 @@ Can you write a linear system for constraints?
 define the optimizer (SLSQP for example) and associated tolerances and or stopping criteria
 
 
-Provide X0, Xn, X*
+Provide X0, Xn, X* (sometimes it's nice to see the evolution at n, please choose n)
 
-Optimality / Feasibility Graphs (convergency )
+
 
 Multistart ?
 
