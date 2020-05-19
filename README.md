@@ -1,5 +1,7 @@
 # lab_notebook
 Here is a one page help to help you to describe your numerical experiments (NE).
+Always start from simple example and complexify.
+Always compare with SoA methodologies
 
 
 ## Full Name and date
@@ -51,6 +53,12 @@ Describe the methodology with full references (RBF, GP, ...)
 
 Please describe how you constructed and validated your surrogate
 Precise the Kernel, and hyperparameter tuning
+
+## NN
+Architecture 
+Number of inputs x Number of ouptus
+Number of HL
+Type of activation function
 
 ## Reduced Order Modeling
 Describe the methodology with full references (SVD, ...)
