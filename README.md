@@ -3,6 +3,9 @@ Here is a one page help to help you to describe your numerical experiments (NE).
 Always start from simple example and complexify.
 Always compare with SoA methodologies
 
+find an opensource algorithm ?
+https://the-algorithms.com
+
 
 ## Full Name and date
 Exemple: Joseph Morlier, tuesday the 12th of September 2019
